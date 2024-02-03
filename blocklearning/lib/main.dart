@@ -1,5 +1,6 @@
 import 'package:blocklearning/app/routes/app_pages.dart';
 import 'package:blocklearning/core/theme/app_colors.dart';
+import 'package:blocklearning/core/theme/base_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -32,10 +33,7 @@ Future<void> main() async {
         GlobalCupertinoLocalizations.delegate,
       ],
       translationsKeys: AppTranslation.translations,
-      theme: ThemeData(
-        useMaterial3: true,
-        scaffoldBackgroundColor: AppColors.background,
-      ),
+      theme: baseTheme,
     ),
   );
 }
