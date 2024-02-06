@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "124126558860",
+    "project_id": "nocoffee-1a3be",
+    "storage_bucket": "nocoffee-1a3be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124126558860:android:fe0dfe77b1350646eb19a9",
+        "android_client_info": {
+          "package_name": "com.example.blocklearning"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVj0hvhUH6ay8bLscOaIi6BcmhWrhtEs0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
