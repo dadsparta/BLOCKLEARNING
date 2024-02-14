@@ -31,5 +31,5 @@ flutter:
   assets:
     - assets/locales/
     - assets/images/
-    - assets/fonts/
     - assets/svg/
+    - assets/images/logo.png
