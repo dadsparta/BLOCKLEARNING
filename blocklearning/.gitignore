@@ -4,7 +4,7 @@
 *.pyc
 *.swp
 *.lock
-*.g
+*.g.dart
 .DS_Store
 .atom/
 .buildlog/
