@@ -1,5 +1,4 @@
 import 'package:blocklearning/app/routes/app_pages.dart';
-import 'package:blocklearning/core/theme/app_colors.dart';
 import 'package:blocklearning/core/theme/base_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -18,15 +17,15 @@ Future<void> main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  Intl.defaultLocale = 'ru_RU';
+  Intl.defaultLocale = 'us_EN';
   runApp(
     GetMaterialApp(
       title: 'NoCoffee',
       initialRoute: Routes.HOME,
       getPages: AppPages.routes,
       defaultTransition: Transition.rightToLeftWithFade,
-      supportedLocales: const [Locale('ru')],
-      locale: const Locale('ru'),
+      supportedLocales: const [Locale('en')],
+      locale: const Locale('en'),
       builder: (context, page) => GestureDetector(
           onTap: () {
             FocusScope.of(context).requestFocus(FocusNode());

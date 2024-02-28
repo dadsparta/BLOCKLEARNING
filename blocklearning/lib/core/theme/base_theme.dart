@@ -11,7 +11,8 @@ final baseTheme = ThemeData(
     backgroundColor: AppColors.primary,
     titleTextStyle: GoogleFonts.kalam(textStyle: AppTextStyles.title)
   ),
-  bottomNavigationBarTheme: const BottomNavigationBarThemeData(
-    backgroundColor: AppColors.primary,
+  navigationBarTheme: const NavigationBarThemeData(
+    backgroundColor: AppColors.navigationBar,
+    surfaceTintColor: AppColors.navigationBar,
   ),
 );
